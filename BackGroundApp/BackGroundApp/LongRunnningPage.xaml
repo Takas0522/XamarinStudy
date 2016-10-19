@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="BackGroundApp.LongRunnningPage"
+		Title="Long Runnning">
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness" iOS="5,20,5,5" Android="5,20,5,5" />
+	</ContentPage.Padding>
+	<ContentPage.Content>
+		<StackLayout>
+			<Button Text="Start Long Runnning Task" x:Name="longRunnningTask" />
+			<Button Text="Stop Long Runnning Task" x:Name="stopLongRunnning" />
+			<Label Text="" x:Name="ticker" FontSize="Large" HorizontalOptions="CenterAndExpand" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
