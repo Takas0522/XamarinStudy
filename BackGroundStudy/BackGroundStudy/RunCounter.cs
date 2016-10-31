@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using BackGroundStudy.Messages;
 using Xamarin.Forms;
+using PCLStorage;
 
 namespace BackGroundStudy
 {
@@ -21,6 +22,9 @@ namespace BackGroundStudy
 					{
 						MessagingCenter.Send<TickedMessage>(message, "TickedMessage");
 					});
+					IFolder rootFolder = FileSystem.Current.LocalStorage;
+					IFile file = await rootFolder.CreateFileAsync("data.txt", CreationCollisionOption.GenerateUniqueName);
+					await file.WriteAllTextAsync(i.ToString());
 				}
 			}, token);
 		}

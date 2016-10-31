@@ -1,15 +1,29 @@
-﻿<Properties StartupConfiguration="{131B1CAB-29EC-4B51-B2A8-4D1512FD371D}|Default" GitUserInfo="UsingMD">
+﻿<Properties StartupConfiguration="{2CB17AAE-2DB4-485C-BAE2-65F38D768CD8}|Default" GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.ItemProperties.BackGroundStudy.Droid PreferredExecutionTarget="Android.Nexus 10 (KitKat)" />
   <MonoDevelop.Ide.Workbench ActiveDocument="状態: BackGroundStudy">
     <Files>
-      <File FileName="iOS/AppDelegate.cs" Line="28" Column="1" />
+      <File FileName="BackGroundStudy/BackGroundStudyPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="BackGroundStudy/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="BackGroundStudy/Messages/StartLongRunningTaskMessage.cs" Line="4" Column="42" />
+      <File FileName="iOS/AppDelegate.cs" Line="21" Column="42" />
       <File FileName="iOS/iOSLongRunningTaskExample.cs" Line="41" Column="18" />
+      <File FileName="BackGroundStudy/Messages/TickedMessage.cs" Line="10" Column="3" />
+      <File FileName="BackGroundStudy/Messages/StopLongRunningTaskMessage.cs" Line="1" Column="1" />
+      <File FileName="BackGroundStudy/Messages/CancelledMessage.cs" Line="1" Column="1" />
+      <File FileName="BackGroundStudy/RunCounter.cs" Line="25" Column="27" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="34" Column="4" />
+      <File FileName="Droid/LongRunningTaskService.cs" Line="7" Column="32" />
+      <File FileName="BackGroundStudy/packages.config" Line="1" Column="1" />
       <File FileName="状態: BackGroundStudy" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/ookawatakashi/XamarinStudy/BackGroundStudy/BackGroundStudy/RunCounter.cs" line="11" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.BackGroundStudy.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.67B062EF-DADE-4809-88AD-9AEDE1E88360" />
+  <MonoDevelop.Ide.ItemProperties.BackGroundStudy.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5DDE0EA2-D6D4-467D-B340-CCEF5FEA9F0F" />
 </Properties>
