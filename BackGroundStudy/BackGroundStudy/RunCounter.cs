@@ -8,6 +8,8 @@ namespace BackGroundStudy
 {
 	public class TaskCounter
 	{
+		private static readonly string FilePath = "/sdcard/sample";
+
 		public async Task RunCounter(CancellationToken token)
 		{
 			await Task.Run(async () =>
@@ -22,7 +24,8 @@ namespace BackGroundStudy
 					{
 						MessagingCenter.Send<TickedMessage>(message, "TickedMessage");
 					});
-					IFolder rootFolder = FileSystem.Current.LocalStorage;
+
+					IFolder rootFolder = await FileSystem.Current.GetFolderFromPathAsync(FilePath);
 					IFile file = await rootFolder.CreateFileAsync("data.txt", CreationCollisionOption.GenerateUniqueName);
 					await file.WriteAllTextAsync(i.ToString());
 				}
