@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:PclStorageStudy" 
+		x:Class="PclStorageStudy.PclStorageStudyPage">
+	<StackLayout>
+		<Label Text="SaveText"/>
+		<Entry x:Name="SampleText" Text="Text Entry!!" />
+		<Button x:Name="SaveButtonCan" Text="SAVE_CAN_SEE_DIRECTORY"/>
+		<Button x:Name="SaveButtonCant" Text="SAVE_CAN'T_SEE_DIRECTORY"/>
+	</StackLayout>
+</ContentPage>

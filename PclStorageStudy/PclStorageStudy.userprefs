@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{30C9B2C8-186C-46D6-B0B8-42A160B2835C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PclStorageStudy/packages.config">
+    <Files>
+      <File FileName="PclStorageStudy/packages.config" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.PclStorageStudy.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5DDE0EA2-D6D4-467D-B340-CCEF5FEA9F0F" />
+  <MonoDevelop.Ide.ItemProperties.PclStorageStudy.Droid PreferredExecutionTarget="Android.Nexus 7 (Marshmallow)" />
+</Properties>
