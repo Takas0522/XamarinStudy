@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:EnumPicker" 
+		xmlns:customcontrol="clr-namespace:EnumPicker.CustomControl"
+		xmlns:enumvalue="clr-namespace:EnumPicker.EnumValue"
+		xmlns:vm="clr-namespace:EnumPicker.ViewModels"
+		x:Class="EnumPicker.EnumPickerPage"
+		Padding="0, 20, 0, 0">
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0"/>
+	</ContentPage.Padding>
+	<StackLayout>
+		<StackLayout.BindingContext>
+			<vm:EnumBindableViewModel/>
+		</StackLayout.BindingContext>
+		<Label Text="バインドエイブルぴっかーコントロール！！"/>
+		<customcontrol:EnumPicker
+			x:Name="BindableEnumPicker"
+			x:TypeArguments="enumvalue:EnumHogeFuga"
+			x:SelectedItem="{Binding enumValue}">
+		</customcontrol:EnumPicker>
+		<Label Text="{Binding enumValue, Mode=OneWay}"/>
+		<Button Text="hogeボタン" x:Name="HogeButton" />
+	</StackLayout>
+</ContentPage>
