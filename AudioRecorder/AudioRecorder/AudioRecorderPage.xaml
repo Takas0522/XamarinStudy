@@ -8,5 +8,7 @@
 		<Label Text="●REC YOUR VOICE" VerticalOptions="Center" HorizontalOptions="Center" />
 		<Button x:Name="StartButton" Text="REC START"/>
 		<Button x:Name="EndButton" Text="REC END"/>
+
+		<Label Text="SEND COGNITIVE SERVICE!"/>
 	</StackLayout>
 </ContentPage>
