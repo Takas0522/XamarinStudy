@@ -140,3 +140,6 @@ https://bugzilla.xamarin.com/show_bug.cgi?id=38551
 ここでハマり、結果としてXamarin公式のrecipeにたどり着く‥
 
 結果として、ソースファイルの通りの内容となる。。。
+
+Androidは下記を参考にした。
+https://developer.xamarin.com/guides/xamarin-forms/web-services/cognitive-services/

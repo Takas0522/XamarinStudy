@@ -1,37 +1,18 @@
-﻿<Properties StartupConfiguration="{A5A1BA6B-222D-43CD-B0B3-DFBB1BA9C615}|Default">
-  <MonoDevelop.Ide.ItemProperties.AudioRecorder.Droid PreferredExecutionTarget="Android.Nexus 10 (KitKat)" />
+﻿<Properties StartupConfiguration="{30F10104-A42F-4960-A307-1B543F0A083C}|Default">
+  <MonoDevelop.Ide.ItemProperties.AudioRecorder.Droid PreferredExecutionTarget="Android.NBQGLMB671303429" />
   <MonoDevelop.Ide.Workbench ActiveDocument="状態: AudioRecorder">
     <Files>
-      <File FileName="AudioRecorder/AudioRecorderPage.xaml.cs" Line="20" Column="1" />
-      <File FileName="iOS/Recorder_iOS.cs" Line="29" Column="21" />
-      <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="AudioRecorder/Interface/IRecorder.cs" Line="12" Column="1" />
+      <File FileName="Droid/Properties/AndroidManifest.xml" Line="1" Column="1" />
       <File FileName="状態: AudioRecorder" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="AudioRecorder" expanded="True">
-            <Node name="AudioRecorder" expanded="True">
-              <Node name="Interface" expanded="True" />
-              <Node name="AudioRecorderPage.xaml" expanded="True" />
-            </Node>
-            <Node name="AudioRecorder.iOS" expanded="True">
-              <Node name="Recorder_iOS.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.AudioRecorder.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.458C5ABD-FAB4-49EC-9C91-26D9B62642D6" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/ookawatakashi/XamarinStudy/AudioRecorder/iOS/Recorder_iOS.cs" line="35" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="iOS/Recorder_iOS.cs" line="40" offsetX="313" offsetY="585" expression="buffer" liveUpdate="False" />
+    <Watch file="Droid/Recorder_Droid.cs" line="32" offsetX="270" offsetY="465" expression="recorder.Surface" liveUpdate="False" />
+    <Watch file="Droid/Recorder_Droid.cs" line="135" offsetX="545" offsetY="2010" expression="permanentFile" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
 </Properties>
