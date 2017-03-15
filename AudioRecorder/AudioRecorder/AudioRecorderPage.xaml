@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ContentPage 
 		xmlns="http://xamarin.com/schemas/2014/forms" 
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
@@ -9,6 +9,10 @@
 		<Button x:Name="StartButton" Text="REC START"/>
 		<Button x:Name="EndButton" Text="REC END"/>
 
-		<Label Text="SEND COGNITIVE SERVICE!"/>
+		
+		
+		<Label Text="SEND COGNITIVE SERVICE!" VerticalOptions="Center" HorizontalOptions="Center"/>
+		<Button x:Name="SendButton" Text="SENDING!" />
+		
 	</StackLayout>
 </ContentPage>

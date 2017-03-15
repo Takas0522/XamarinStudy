@@ -1,18 +1,27 @@
-﻿<Properties StartupConfiguration="{30F10104-A42F-4960-A307-1B543F0A083C}|Default">
-  <MonoDevelop.Ide.ItemProperties.AudioRecorder.Droid PreferredExecutionTarget="Android.NBQGLMB671303429" />
+﻿<Properties StartupConfiguration="{A5A1BA6B-222D-43CD-B0B3-DFBB1BA9C615}|Default">
+  <MonoDevelop.Ide.ItemProperties.AudioRecorder.Droid PreferredExecutionTarget="Android.Nexus 7 (Marshmallow)" />
   <MonoDevelop.Ide.Workbench ActiveDocument="状態: AudioRecorder">
     <Files>
-      <File FileName="AudioRecorder/AudioRecorderPage.xaml.cs" Line="31" Column="1" />
+      <File FileName="AudioRecorder/Services/VerificationServices.cs" Line="4" Column="7" />
+      <File FileName="AudioRecorder/Views/ScenarionOnePage.xaml.cs" Line="55" Column="1" />
+      <File FileName="AudioRecorder/Views/SaveSubscriptionPage.xaml.cs" Line="23" Column="16" />
+      <File FileName="iOS/Recorder_iOS.cs" Line="57" Column="24" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
       <File FileName="状態: AudioRecorder" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.AudioRecorder.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.458C5ABD-FAB4-49EC-9C91-26D9B62642D6" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/ookawatakashi/XamarinStudy/AudioRecorder/iOS/GetGuid_iOS.cs" relfile="iOS/GetGuid_iOS.cs" line="24" column="1" />
+      <Breakpoint file="/Users/ookawatakashi/XamarinStudy/AudioRecorder/iOS/GetGuid_iOS.cs" relfile="iOS/GetGuid_iOS.cs" line="22" column="1" />
+      <Breakpoint file="/Users/ookawatakashi/XamarinStudy/AudioRecorder/iOS/GetGuid_iOS.cs" relfile="iOS/GetGuid_iOS.cs" line="20" column="1" />
+      <Breakpoint file="/Users/ookawatakashi/XamarinStudy/AudioRecorder/AudioRecorder/Services/VerificationServices.cs" relfile="AudioRecorder/Services/VerificationServices.cs" line="81" column="1" />
+      <Breakpoint file="/Users/ookawatakashi/XamarinStudy/AudioRecorder/AudioRecorder/Services/VerificationServices.cs" relfile="AudioRecorder/Services/VerificationServices.cs" line="53" column="27" />
+      <Breakpoint file="/Users/ookawatakashi/XamarinStudy/AudioRecorder/AudioRecorder/Services/VerificationServices.cs" relfile="AudioRecorder/Services/VerificationServices.cs" line="52" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
-    <Watch file="iOS/Recorder_iOS.cs" line="40" offsetX="313" offsetY="585" expression="buffer" liveUpdate="False" />
-    <Watch file="Droid/Recorder_Droid.cs" line="32" offsetX="270" offsetY="465" expression="recorder.Surface" liveUpdate="False" />
-    <Watch file="Droid/Recorder_Droid.cs" line="135" offsetX="545" offsetY="2010" expression="permanentFile" liveUpdate="False" />
-  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>

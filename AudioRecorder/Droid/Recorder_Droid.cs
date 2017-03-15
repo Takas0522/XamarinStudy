@@ -26,6 +26,32 @@ namespace AudioRecorder.Droid
 		int bufferSize;
 		bool isRecording;
 		CancellationTokenSource token;
+
+		private string _fileName;
+		public string FileName
+		{
+			get
+			{
+				return _fileName;
+			}
+			set {
+				_fileName = value;
+			}
+		}
+
+		private string _directryPath;
+		public string DirectryPath 
+		{ 
+			get
+			{
+				return _directryPath;
+			}
+			set
+			{
+				_directryPath = value;
+			}
+		}
+
 		public void RecEnd()
 		{
 			if (recorder != null)
@@ -211,11 +237,11 @@ namespace AudioRecorder.Droid
 			return Path.Combine(path, "temp.wav");
 		}
 
+
 		string GetFilename()
 		{
-			//var path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-			var path = "/sdcard/";
-			return Path.Combine(path, "Todo.wav");
+			_directryPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+			return Path.Combine(_directryPath, _fileName);
 		}
 
 		void DeleteTempFile()

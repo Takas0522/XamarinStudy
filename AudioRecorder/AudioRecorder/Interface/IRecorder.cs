@@ -7,5 +7,7 @@ namespace AudioRecorder.Interface
 	{
 		void RecStart();
 		void RecEnd();
+		string FileName { get; set; }
+		string DirectryPath { get; set; }
 	}
 }

@@ -141,5 +141,5 @@ https://bugzilla.xamarin.com/show_bug.cgi?id=38551
 
 結果として、ソースファイルの通りの内容となる。。。
 
-Androidは下記を参考にした。
+Androidは下記を参考にした（手抜き）。
 https://developer.xamarin.com/guides/xamarin-forms/web-services/cognitive-services/

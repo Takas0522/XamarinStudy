@@ -1,5 +1,5 @@
 ﻿using Xamarin.Forms;
-
+using AudioRecorder.Views;
 namespace AudioRecorder
 {
 	public partial class App : Application
@@ -8,7 +8,7 @@ namespace AudioRecorder
 		{
 			InitializeComponent();
 
-			MainPage = new AudioRecorderPage();
+			MainPage = new MainPage();
 		}
 
 		protected override void OnStart()
