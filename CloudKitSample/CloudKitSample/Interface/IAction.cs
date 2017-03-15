@@ -1,10 +1,8 @@
 ﻿using System;
 namespace CloudKitSample.Interface
 {
-	public class IAction
+	public interface IAction
 	{
-		public IAction()
-		{
-		}
+		void RunAction();
 	}
 }

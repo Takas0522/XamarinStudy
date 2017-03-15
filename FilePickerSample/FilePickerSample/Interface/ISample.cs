@@ -1,10 +1,10 @@
 ﻿using System;
 namespace FilePickerSample.Interface
 {
-	public class ISample
+	public interface ISample
 	{
-		public ISample()
-		{
-		}
+		void runFunction();
+		string PublicDatabaseName { get; }
+		string PrivateDatabaseName { get; }
 	}
 }

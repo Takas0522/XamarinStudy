@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="AudioRecorder.Views.SaveSubscriptionPage"
+	Padding="10,20,10,0">
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="FillAndExpand">
+			<Entry x:Name="KeyText" Placeholder="Entry SubscriptionKey"/>
+			<Button x:Name="SaveButton" Text="SAVE SUBSCRIPTION" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

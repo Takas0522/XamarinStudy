@@ -11,7 +11,7 @@
 	<ContentPage.Padding>
 		<OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0"/>
 	</ContentPage.Padding>
-	<StackLayout>
+	<StackLayout x:Name="st">
 		<StackLayout.BindingContext>
 			<vm:EnumBindableViewModel/>
 		</StackLayout.BindingContext>
@@ -19,9 +19,9 @@
 		<customcontrol:EnumPicker
 			x:Name="BindableEnumPicker"
 			x:TypeArguments="enumvalue:EnumHogeFuga"
-			x:SelectedItem="{Binding enumValue}">
+			x:SelectedItem="{Binding enumValue, Mode=TwoWay}">
 		</customcontrol:EnumPicker>
-		<Label Text="{Binding enumValue, Mode=OneWay}"/>
+		<Label Text="{Binding enumValue, Mode=TwoWay}"/>
 		<Button Text="hogeボタン" x:Name="HogeButton" />
 	</StackLayout>
 </ContentPage>
