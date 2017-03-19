@@ -72,7 +72,5 @@ namespace AudioRecorder.Views
             ChangeIsEnableProperty(true);
             IsRecEnding = false;
         }
-
-
     }
 }
